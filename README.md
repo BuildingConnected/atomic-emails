@@ -20,11 +20,11 @@ Example usage:
 
 ```javascript
 const config = {
-	supportedClients: {
-		"Outlook 2007–16": true,
-		"Gmail": true,
-		"Yahoo! Mail": true,
-	},
+	supportedClients: [
+		"Outlook 2007–16",
+		"Gmail",
+		"Yahoo! Mail",
+	],
 }
 
 const { styleValidator } = require('atomic-emails')
@@ -32,7 +32,7 @@ const { styleValidator } = require('atomic-emails')
 const myStyleValidator = styleValidator(config)
 ```
 
-You can now invoke your style validator and pass it a style object. The style object is simple a plain javascript object with keys that are css styles and the corresponding values. It will ensure all styles used are compatible with the email clients you selected. It will return an object with the following properties:
+You can now invoke your style validator and pass it a style object. The style object is simply a plain javascript object with keys that are css styles and the corresponding values. It will ensure all styles used are compatible with the email clients you selected. It will return an object with the following properties:
 
 ```javascript
 const style = {
