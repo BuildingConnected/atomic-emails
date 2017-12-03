@@ -1,0 +1,15 @@
+{
+  "name": "email-style-validator",
+  "version": "1.0.0",
+  "description": "A utility for validating css styles against email clients compatibility.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BuildingConnected/atomic-emails/tree/master/packages/email-style-validator"
+  },
+  "author": "robcmills",
+  "license": "MIT"
+}
