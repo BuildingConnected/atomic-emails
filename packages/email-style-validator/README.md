@@ -1,6 +1,6 @@
 ### Email Style Validator
 
-Email Style Validator is simply a higher-order function that you pass a config and it returns a function that ensures css styles used are compatible with the email clients you specify in the config. [Full listing of all clients]().
+Email Style Validator is simply a higher-order function that you pass a config and it returns a function that ensures css styles used are compatible with the email clients you specify in the config. [Full listing of all supported clients](https://github.com/BuildingConnected/atomic-emails/blob/master/packages/email-style-validator/src/clients.json).
 
 Example usage:
 
