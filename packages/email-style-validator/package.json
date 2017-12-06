@@ -1,6 +1,6 @@
 {
   "name": "email-style-validator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A utility for validating css styles against email clients compatibility.",
   "main": "src/index.js",
   "scripts": {
