@@ -13,7 +13,7 @@ const config = {
 	],
 }
 
-const { emailStyleValidator } = require('email-style-validator')
+const emailStyleValidator = require('email-style-validator')
 
 const myEmailStyleValidator = emailStyleValidator(config)
 ```
@@ -31,8 +31,8 @@ const style = {
 
 const {
 	isValid,
-	warnings,
-	errors,
+	partiallySupported,
+	notSupported,
 } = myEmailStyleValidator({ style })
 ```
 

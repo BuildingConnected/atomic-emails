@@ -1,0 +1,7 @@
+{
+  "extends": "standard",
+  "globals": {
+  	"test": false,
+  	"expect": false,
+  }
+}
