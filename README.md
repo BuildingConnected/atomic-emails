@@ -6,7 +6,7 @@ Atomic Emails is a collection of utilities that helps you build emails that are 
 
 Atomic Emails provides the following packages:
 
-- Style Validator
-- WithEmailValidation - React Higher Order Component
-- React Atomic Email Components
-- Server Side Email Renderer
+- [Email Style Validator](https://github.com/BuildingConnected/atomic-emails/tree/master/packages/email-style-validator)
+- WithEmailValidation - React Higher Order Component (coming soon)
+- React Atomic Email Components (coming soon)
+- Server Side Email Renderer (coming soon)

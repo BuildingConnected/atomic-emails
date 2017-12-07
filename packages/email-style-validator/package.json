@@ -4,7 +4,7 @@
   "description": "A utility for validating css styles against email clients compatibility.",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "tap test/*.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,6 @@
   "author": "robcmills",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^21.2.1"
+    "tap": "^11.0.0"
   }
 }
